@@ -7,29 +7,29 @@ int main()
     int outcome;
     char grades;
     
-    scanf("$d", &outcome);
+    scanf("%d", &outcome);
 
     switch (outcome/10)
     {
     case 9:
-        grades = "A"
+        grades = 'A';
         break;
 
     case 8:
-        grades = "B"
+        grades = 'B';
         break;
-    
+
     case 7:
-        grades = "C"
+        grades = 'C';
         break;
 
     case 6:
-        grades = "D"
+        grades = 'D';
         break;
 
     default:
-        grades = "F"    
+        grades = 'F';
         break;
     }
-    printf("학점은: %c \n", grades)
+    printf("학점은: %c \n", grades);
 }

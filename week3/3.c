@@ -8,7 +8,7 @@ int main(void)
     printf("정수를 입력하세요 : ");
     scanf("%d", &num);
 
-    printf("%s", (num % 2 == 0)? "Even" : "old");
+    printf("%s", (num % 2 == 0)? "Even" : "Odd");
     //if (num % 2 == 0)? printf("Even\n") : printf("old\n");
 
     return 0;
